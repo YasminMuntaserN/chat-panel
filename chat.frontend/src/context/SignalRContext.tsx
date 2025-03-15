@@ -56,8 +56,9 @@ export function SignalRProvider({ children }: { children: ReactNode }) {
     }, []);
 
     const sendMessage = useCallback(async (receiverId: string, content: string) => {
-        await hubConnection.current?.invoke('SendMessage', receiverId, content);
+       await hubConnection.current?.invoke('SendMessage', receiverId, content);
     }, []);
+
 
     const markMessageAsRead = useCallback(async (messageId: string) => {
         await hubConnection.current?.invoke('MarkMessageAsRead', messageId);
