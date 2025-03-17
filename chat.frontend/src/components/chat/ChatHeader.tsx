@@ -1,4 +1,4 @@
-import { useChat } from "../../context/ChatProvider";
+import { useChat } from "../../context/ChatContext";
 import {format} from "date-fns";
 
 function ChatHeader(){

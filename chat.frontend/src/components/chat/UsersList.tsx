@@ -1,5 +1,5 @@
 import { User } from "../../types/chat";
-import {useChat} from "../../context/ChatProvider.tsx";
+import {useChat} from "../../context/ChatContext.tsx";
 
 function UsersList() {
     const { filteredUsers, selectedUser, selectUser } = useChat();

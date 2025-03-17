@@ -20,7 +20,7 @@ export interface Conversation {
   user: User;
   lastMessage: string;
   lastMessageTime: Date;
-  unreadCount: number;
+  unreadMessages: number;
 }
 
 export enum UserStatus {
@@ -34,14 +34,6 @@ export enum ActiveTab {
   users = 'users'
 }
 
-export interface ChatTheme {
-  primary: string;
-  secondary: string;
-  accent: string;
-  background: string;
-  text: string;
-}
-
 
 
 export interface ChatContextState {
@@ -49,7 +41,6 @@ export interface ChatContextState {
   users: User[];
   filteredUsers: User[];
   selectedUser: User | null;
-  unreadCount: number;
   conversations: Conversation[];
   filteredConversations: Conversation[];
 }

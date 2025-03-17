@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Send } from 'lucide-react';
-import { useChat } from '../../context/ChatProvider';
+import { useChat } from '../../context/ChatContext';
 
 
 function SendMessageInput() {

@@ -94,7 +94,6 @@ public class ChatHub : Hub
     if (_userConnections.TryGetValue(receiverId, out var connectionId))
     {
         await Clients.Client(connectionId).SendAsync("ReceiveMessage", message);
-        Console.WriteLine($"receiver message");
     }
 
     await Clients.Caller.SendAsync("MessageSent", message);

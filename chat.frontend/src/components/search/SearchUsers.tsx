@@ -1,7 +1,7 @@
 import { useState, useCallback, useEffect } from 'react';
 import { Search } from 'lucide-react';
 import { useDebounce } from '../hooks/useDebounce.ts';
-import { useChat } from '../../context/ChatProvider.tsx';
+import { useChat } from '../../context/ChatContext.tsx';
 import { ActiveTab } from '../../types/chat';
 
 
