@@ -1,6 +1,6 @@
 # 💬 Chat Panel
 
-A modern, real-time **chat panel** built with **.NET 9 **, **MongoDB**, and **React**. Designed to be **modular and reusable**, this panel is ideal for applications such as:
+A modern, real-time **chat panel** built with **.NET 9**, **MongoDB**, and **React**. Designed to be **modular and reusable**, this panel is ideal for applications such as:
 
 - 🏥 **Clinic systems** – connect doctors, patients, and admins  
 - 🛒 **eCommerce platforms** – customer support and chat  
