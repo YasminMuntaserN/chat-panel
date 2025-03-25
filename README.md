@@ -14,7 +14,7 @@ A modern, real-time **chat panel** built with **.NET 9 **, **MongoDB**, and **Re
 
 ## ✨ Features
 
-- ⚡ Real-time communication using **SignalR **
+- ⚡ Real-time communication using **SignalR**
 - 🗂️ Backend with **MongoDB** for message persistence
 - 💬 Sleek chat UI built with **React** and **Tailwind CSS**
 - 🧠 Smart data handling via **React Query**
@@ -37,7 +37,7 @@ A modern, real-time **chat panel** built with **.NET 9 **, **MongoDB**, and **Re
 
 ### Backend
 
-- **.NET 8** – Web API & SignalR Hub
+- **.NET 9** – Web API & SignalR Hub
 - **SignalR** – for real-time messaging
 - **MongoDB** – NoSQL database for storing chat logs
 
